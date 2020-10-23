@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    color:aquamarine;
+}
+
+body {
+    font-family: sans-serif;
+    background-color:rgb(1, 14, 14);
+}
+
+.wrapper {
+    background-image: url("bg2.png");
+    background-size: cover;
+    border: 1px solid black;
+    width: 1080px;
+    height: 720px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.score {
+    font-size: 20px;
+    color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20%;
+}
+
+.highscore {
+    font-size: 20px;
+    color: cyan;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20%;
+}
+
+
+.timer {
+    font-size: 20px;
+    color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20%;
+}
+
+
+
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    color:black;
+    background-color: rgb(144, 192, 72);
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    color:rgb(144, 192, 72);
+    background-color:black;
+}
+
+.gameplay {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.monster {
+    height: 20%;
+    width: 20%;
+    top: 50%;
+    left: 40%;
+    opacity: 1;
+    position: absolute;
+    cursor: crosshair;
+}
+
+
+.score, .highscore, .timer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

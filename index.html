@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Alien vs Monitor</h1>
+    </div>
+
+    <div class="wrapper">
+        <div class="score" id="score"></div>
+        <div class="highscore" id="highscore"></div>
+        <div class="timer" id="timer"></div>
+        <button onclick="if(flag === true){ mulai(); play2();}">Start</button>
+
+
+        <div class="gameplay">
+            <img src="enemy.png" alt="" class="monster" id="test">
+        </div>
+    </div>
+  
+    <audio id="audio" src="Laser-shot.mp3"></audio>
+    <audio id="buttonSound" src="buttonsound.ogg"></audio>
+    <audio id="bgmusic" src="bg-music.mp3" autoplay loop></audio>
+    <script src="javascript.js"></script>
+</body>
+</html>
